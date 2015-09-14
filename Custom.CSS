@@ -1,16 +1,22 @@
 
 head {
 
+
+
 }
 body{
+  text-align: center;
   color: white;
   font-family: 'roboto', sans-serif;
   font-weight: 100;
+  max-height: 100%;
+
   background-image: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg);
 }
 
 #submit:hover {
-	background-color: #117bff;
+	background-color: white;
+  color: black;
 	cursor: pointer;
 	transition: background .5s;
 }
@@ -23,5 +29,6 @@ li{
 }
 
 #submit{
-
+background-color: black;
+color: white;
 }
