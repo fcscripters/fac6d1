@@ -4,16 +4,14 @@
 <head>
   <title>Health Check Up</title>
   <link rel="stylesheet" type="text/css" href="custom.css">
-  <script type="text/javascript" href="app.js"></script>
+  <script type="text/javascript" href="app1.js"></script>
 </head>
 <body>
 <header>
       <h1>Health Check Up</h1>
 </header> 
 
-<form>
-
- <label for="male">Male</label>
+<form id="health-form" method="post" action="/user" >
 
         <ul>
           <label for="fullname">Full name</label>
@@ -45,7 +43,7 @@
 
           <p><input type="checkbox" name="optin">Opt-in for future newsletters</p>
        
-         <p><input type="submit"></p>
+         <p><input type="submit" id="submit"></p>
 </form>
 
 </body>
