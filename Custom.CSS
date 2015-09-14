@@ -3,13 +3,25 @@ head {
 
 }
 body{
+  color: white;
   font-family: 'roboto', sans-serif;
   font-weight: 100;
-  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4NjR7gbMRGrT-_D1G8Xtk0kSwhXd6yhpt4lcEJ7GfyGEKeITzxg);
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg);
 }
 
-.optin:hover {
+#submit:hover {
 	background-color: #117bff;
 	cursor: pointer;
 	transition: background .5s;
+}
+
+p{
+  font-weight: bold;
+}
+li{
+  list-style-type: none;
+}
+
+#submit{
+
 }
